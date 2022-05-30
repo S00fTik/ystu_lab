@@ -42,12 +42,18 @@ namespace Console_Calck
                 res = a * b;
             }
 
-            else if (oper == '/')
-            {
-
-                res = a / b;
-            }
-            Console.WriteLine("\nРезультат: {0}", res);
+                 else if (oper == '/')
+                {
+                    if (b != 0)
+                    {
+                        res = a / b;
+                    }
+                    else
+                    {
+                        Console.WriteLine("На 0 делить нельзя!");
+                    }
+                }
+                Console.WriteLine("\nРезультат: {0}", res);
             Console.ReadLine();
         }
     }
