@@ -47,10 +47,16 @@ namespace Console_Calck
 
                 res = a / b;
             }
+<<<<<<< HEAD
             else if (oper == '^')
             {
                 res = Math.Pow(a, b);
                 Console.WriteLine("Число " + a + " в степени " + b + " равно " + res + ".");
+=======
+            else
+            {
+                Console.WriteLine("Неизвестный оператор.");
+>>>>>>> 01a04e7ecba33b4ca745badc272bd4cd31dbbabc
             }
             Console.WriteLine("\nРезультат: {0}", res);
             Console.ReadLine();
