@@ -47,6 +47,11 @@ namespace Console_Calck
 
                 res = a / b;
             }
+            else if (oper == '^')
+            {
+                res = Math.Pow(a, b);
+                Console.WriteLine("Число " + a + " в степени " + b + " равно " + res + ".");
+            }
             Console.WriteLine("\nРезультат: {0}", res);
             Console.ReadLine();
         }
